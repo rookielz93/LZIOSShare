@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'LZIOSShare_Example' do
+  pod 'LZIOSShare', :path => '../'
+
+  target 'LZIOSShare_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
